@@ -1,4 +1,9 @@
-# preview-and-import-plugin
+# プレビュー＆インポートプラグイン
+
+![typescript](https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat-square)
+![bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C.svg?logo=bootstrap&style=flat-square)
+![github license](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
+[![download](https://img.shields.io/badge/download-zip-brightgreen.svg?style=flat-square)](https://github.com/motohasystem/preview-and-import-plugin/tree/main/dist)
 
 添付ファイル(csv)のプレビューと別アプリへのインポート機能を持たせるkintoneプラグインです。添付ファイルのプレビューと、指定したアプリへのインポート機能をkintoneアプリに追加することができます。
 
