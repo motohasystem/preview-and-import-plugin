@@ -134,12 +134,12 @@ export class PluginSettings {
             , block_radio_after_preview
             , __separator__()
 
-            , block_import_tools
-            , block_radio_header_handling
-            , __separator__()
-
             , __index__('インポート設定')
             , blocks_dropdown_import_app
+            , __separator__()
+
+            , block_import_tools
+            , block_radio_header_handling
             , __separator__()
         ]
     }
