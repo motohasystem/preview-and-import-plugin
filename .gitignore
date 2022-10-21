@@ -1,0 +1,11 @@
+/src/js
+/src/dist
+/plugin/js
+/dist
+/package.json
+/tsconfig.json
+/webpack.js
+/plugin/manifest.dev.json
+/plugin/manifest.json
+/plugin/manifest.prod.json
+/plugin/work
