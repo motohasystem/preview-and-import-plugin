@@ -91,7 +91,8 @@ export class ImportManager {
             console.error(msg)
             throw new Error(msg)
         })
-        const converted = Encoding.codeToString(resp_attached.data)
+        const converted = Encoding.codeToString(resp_attached.data).replace(/^\ufeff/, "")  // BOMの除去
+
         csv.parse(converted)
 
         // インポート先アプリのフィールド情報を取得

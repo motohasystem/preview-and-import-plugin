@@ -51,7 +51,9 @@ export class FilePreviewer {
                         }
                     }
                 ).then((resp)=>{
-                    const converted = Encoding.codeToString(resp.data)
+                    const converted = Encoding.codeToString(resp.data).replace(/^\ufeff/, "")    // もしあればBOMを除去
+
+                    // 設定に従って表示形式を分ける。Excel対応はここを拡張してください。
                     if(fieldset.preview_style == PreviewStyle.CSV){
                         FilePreviewer.show_table(preview_area, converted, filename)
                     }
